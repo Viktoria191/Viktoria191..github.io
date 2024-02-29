@@ -1,38 +1,127 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #21354b;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.OneText {
+  font-family: GHEA Mariam;
+  font-size: 66px;
+  line-height: 7px;
+  margin-left: 86px;
+  width: 420px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TwoText {
+  font-family: GHEA Grapalat;
+  font-size: 14px;
+  line-height: 3px;
+  margin-left: 89px;
+  width: 200px;
+}
+
+.ThreeText {
+  margin-top: -280px;
+  margin-left: 89px;
+  opacity: 20%;
+  width: 200px;
+}
+
+.FourText {
+  font-family: GHEA Grapalat;
+  font-size: 12px;
+  margin-top: 260px;
+  margin-left: 89px;
+  color: #ff69b4;
+  width: 170px;
+}
+
+.OneInput {
+  display: flex;
+  flex-direction: column;
+  font-family: GHEA Grapalat;
+  font-size: 14px;
+  margin-top: -50px;
+  margin-left: 800px;
+}
+
+.OneField {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  width: 450px;
+  opacity: 50%;
+}
+
+input[type='range'] {
+  width: 450px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type='range']::-webkit-slider-runnable-track {
+  border-radius: 10px/100%;
+  height: 1px;
+  background: linear-gradient(to right, #ff69b4 50%, #5baaf9 50%);
+}
+input[type='range']::-webkit-slider-thumb {
+  background: #b6a16b;
+  border-radius: 10px/100%;
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  -webkit-appearance: none;
+  margin-top: -6px;
+}
+
+.Hot {
+  font-family: GHEA Grapalat;
+  font-size: 9px;
+  margin-top: 1px;
+  margin-left: 3px;
+}
+
+.Cold {
+  font-family: GHEA Grapalat;
+  font-size: 9px;
+  margin-top: -18px;
+  margin-left: 423px;
+}
+
+.btn {
+  margin-top: 100px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5em;
+  background-color: transparent;
+  color: #EEEBE6;
+  border: 1px solid #EEEBE6;
+}
+
+.FiveText {
+  font-family: GHEA Grapalat;
+  font-size: 13px;
+  line-height: 2px;
+  margin-left: 1000px;
+  margin-top: -45px;
+  width: 200px;
+}
+
+.url {
+  color: #ff69b4;
+}
+
+.SixText {
+  font-family: GHEA Grapalat;
+  font-size: 12px;
+  color: #EEEBE6;
+  margin-left: 400px;
+  margin-top: -40px;
 }
